@@ -48,7 +48,7 @@
           <img src="lib/images/beginning.jpg" class="img-responsive center-block img-circle" style="height: 200px; width: 200px"/>
           <h3 class="title">Beginning</h3>
           <p>
-            Never truly understood the process behind a website until recently.
+            I never truly understood the process behind a website until recently.
             The training I received in class was insightful and taught me how to construct
             this site.  There are still a lot to learn and I am looking forward
             to building another site.
@@ -57,6 +57,38 @@
       </div>
     </section>
 
+    <div id="container">
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="demo-1 effect">
+            <li><img class="top" src="lib/images/ShayDarius.png" alt=""/></li>
+            <li><img class="top" src="lib/images/ShayDarius2.png" alt=""/></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <div class="demoText">
+            <h3>Contact Info</h3>
+            <ul>
+            <li><img class="demoText" src="lib/images/Carm.jpg" class="img-responsive center-block" style="height: 150px; width: 150px" alt=""/></li>
+              <li class="demoText">
+                  Caramelita Rafael
+              </li>
+              <li class="demoText">
+                  hawkeyewoman2013@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <ul class="demo-1 effect">
+            <li><img class="top" src="lib/images/rain2.png" alt=""/></li>
+            <li><img class="top" src="lib/images/rain.png" alt=""/></li>
+          </ul>
+        </div>
+    </div>
+  </div>
 
     <?php require_once ("lib/partials/scripts.php");?>
 
