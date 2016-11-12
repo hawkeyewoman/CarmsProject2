@@ -57,7 +57,7 @@
       </div>
     </section>
 
-    <div id="container">
+    <!-- <div id="container">
       <div class="row">
         <div class="col-md-4">
           <ul class="demo-1 effect">
@@ -69,7 +69,7 @@
         <div class="col-md-4">
           <div class="demoText">
             <h3>Contact Info</h3>
-            <ul>
+            <ul class="list-unstyled">
             <li><img class="demoText" src="lib/images/Carm.jpg" class="img-responsive center-block" style="height: 150px; width: 150px" alt=""/></li>
               <li class="demoText">
                   Caramelita Rafael
@@ -88,7 +88,9 @@
           </ul>
         </div>
     </div>
-  </div>
+  </div> -->
+
+  <?php require_once ('lib/partials/imageEffect.php');?>
 
     <?php require_once ("lib/partials/scripts.php");?>
 
