@@ -69,6 +69,17 @@
     </div>
   </section>
 
+  <div class="col-md-12">
+    <footer><div class="container">
+        <p class="pull-left"><a href="index.php">Back to Top</a></p>
+        <p class="pull-left"><a href="about.php">About</a></p>
+        <p class="pull-left"><a href="contact.php">Contact</a></p>
+        <p>
+          Caramelita Rafael &copy; 2016
+        </p>
+        </div>
+      </footer>
+    </div>
 
   </body>
 </html>

@@ -24,73 +24,52 @@
     <section class="info">
       <div class="row">
         <div class="col-md-6">
-          <h3 class="title">Caramelita</h3>
-          <p>
-            A little info about myself.  My clan is Kinyaa'áanii ( The Towering House) born into the Tábąąhá (Water's Edge clan).
-            My maternal grandparents are Keha'atiinii (The Foot Trails people) and my paternal grandparents are 'Áshįįhi (Salt people).
-            </p>
-            <br>
+          <h3 class="title">Childhood</h3>
             <p>
-            I remember my grandmother showing me how to weave when I was a little girl and wish I was able to learn more from her.  My
-            grandmother was killed in a head on collison with a drunk driver.  As a child I walked in the hills behind
-            our own place and played outdoors, the internet didnt exist then nor did cell phones.  Today, it seems like our
-            lives revolve around technology.
-            </p>
-            <br>
-            <p>
-            No matter what life throws at you, dust yourself off and
-            take baby steps to a new beginning.  No one can determine your
-            future but you.  Enjoy life and be thankful for the trials and
-            always aim higher than you can reach.
+            I grew up in the Four Corners area with my parents.  My parents were a huge influence in my life,
+            they taught me how to love, respect, care, and never to give up.  Life isn't easy and times we
+            feel like wanting to throw in the towel and call it quits but we remember the struggle our parents,
+            grandparents and those before us have endured.  I heard stories of how my grandparents never went
+            to school or how they never learned the English language but yet they learned many other trades
+            of life.  Today, we still have those trades to look back upon.  Weaving for instance is one skill
+            that my grandmother, Bessie had taught me.  I remember spooling the wool to make yarn and her
+            gathering flowers to make the dye.  Sitting beside her as a child learning to weave was an honor
+            and do wished I had more time to perfect the art.  My grandmother was killed in an accident with a
+            drunk driver.  Sadly, I never tried to weave again.
             </p>
         </div>
-        <div class="col-md-6">
-          <img src="lib/images/beginning.jpg" class="img-responsive center-block img-circle" style="height: 200px; width: 200px"/>
+
+        <div class="col-md-6 beginning">
+          <img src="lib/images/beginning.jpg" class="img-responsive center-block" style="height: 200px; width: 200px;"/>
           <h3 class="title">Beginning</h3>
-          <p>
-            I never truly understood the process behind a website until recently.
-            The training I received in class was insightful and taught me how to construct
-            this site.  There are still a lot to learn and I am looking forward
-            to building another site.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- <div id="container">
-      <div class="row">
-        <div class="col-md-4">
-          <ul class="demo-1 effect">
-            <li><img class="top" src="lib/images/ShayDarius.png" alt=""/></li>
-            <li><img class="top" src="lib/images/ShayDarius2.png" alt=""/></li>
-          </ul>
-        </div>
-
-        <div class="col-md-4">
-          <div class="demoText">
-            <h3>Contact Info</h3>
-            <ul class="list-unstyled">
-            <li><img class="demoText" src="lib/images/Carm.jpg" class="img-responsive center-block" style="height: 150px; width: 150px" alt=""/></li>
-              <li class="demoText">
-                  Caramelita Rafael
-              </li>
-              <li class="demoText">
-                  hawkeyewoman2013@gmail.com
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <ul class="demo-1 effect">
-            <li><img class="top" src="lib/images/rain2.png" alt=""/></li>
-            <li><img class="top" src="lib/images/rain.png" alt=""/></li>
-          </ul>
         </div>
     </div>
-  </div> -->
+    </section>
 
   <?php require_once ('lib/partials/imageEffect.php');?>
+
+  <div class="row">
+    <div class="col-md-12">
+      <br>
+      <br>
+        <p>
+          As a child, I never knew what a cellphone was or the internet because they were not introduced
+          to the world yet.  My childhood consist of playing in the hills behind our home and gardening
+          with my parents.  Today, my three year old knows how to operate my cellphone and makes you
+          realize how much the times have changed.  Technology is advancing everyday and with everyday we
+          are learning something new.
+        </p>
+        <br>
+        <p>
+          I never truly understood the process behind a website until recently.
+          The training I received in class was insightful and taught me how to construct
+          this site.  The first two weeks were full of codes and it even came to the point of dreaming
+          about them at night.  I am happy to say I have learned a lot and was able to construct
+          this site. There are still a lot to learn and I am looking forward
+          to building another site in the near future.
+        </p>
+    </div>
+  </div>
 
     <?php require_once ("lib/partials/scripts.php");?>
 
@@ -154,6 +133,18 @@
       <script type="text/javascript" src="lib/js/card.js"></script>
       <?php require_once ("lib/partials/card.php");?>
     </section>
+
+    <div class="col-md-12">
+      <footer><div class="container">
+          <p class="pull-left"><a href="about.php">Back to Top</a></p>
+          <p class="pull-left"><a href="index.php">Home</a></p>
+          <p class="pull-left"><a href="contact.php">Contact</a></p>
+          <p>
+            Caramelita Rafael &copy; 2016
+          </p>
+          </div>
+        </footer>
+      </div>
 
   </body>
 </html>

@@ -1,13 +1,3 @@
-<!-- Hey Carm!  So I believe I found the bug, and it had to do with your little transition
-    when you hovered over an element, but those for that particular class  were what was messing up the alignment.
-    So, I went ahead and wrote this out for you.  If you don't like it, you can always revert
-    back to the the other way that you had it.  It was just easier to write this out to work with your
-    current layout.  It's nearly a similar transition to the other one you where doing, but this just starts out
-    with a blurred filter.
-                        *Krieg
-                      -->
-
-
 <!-- And I also include the css for this in the style tag down below. -->
 <div class="container">
   <div class="row">
@@ -16,26 +6,26 @@
         <div class="hoverEffect">
             <img class="img-fluid center-block" src="lib/images/ShayDarius.png" alt="">
             <div class="overlay">
-               <!-- <h2></h2> -->
-               <!-- <a class="info" href="#">link here</a> -->
+               <h2 class="demoText">Rose Kennedy</h2>
+               <p class="info demoText">"Life isn’t a matter of milestones, but of moments."</p>
             </div>
         </div>
       </li>
       <li class="col-lg-4 col-md-4 col-sm-6 com-xs 12">
         <div class="hoverEffect">
-            <img class="center-block" src="lib/images/Carm.jpg" style="height:300px;" alt="">
+            <img class="center-block" src="lib/images/Parrot.png" style="height:300px;" alt="">
             <div class="overlay">
-               <h2 class="demoText">Contact Info</h2>
-               <a class="info demoText" href="#">hawkeyewoman2013@gmail.com</a>
+               <h2 class="demoText">William Shakespeare</h2>
+               <p class="info demoText">"A light heart lives long."</p>
             </div>
         </div>
       </li>
       <li class="col-lg-4 col-md-4 col-sm-6 com-xs 12">
         <div class="hoverEffect">
-            <img class="img-fluid center-block" src="lib/images/rain.png" alt="">
+            <img class="img-fluid center-block" src="lib/images/mountain.jpg" alt="">
             <div class="overlay">
-               <!-- <h2></h2> -->
-               <!-- <a class="info" href="#">link here</a> -->
+              <h2 class="demoText">Albert Einstein</h2>
+              <p class="info demoText">"A person who never made a mistake never tried anything new."</p>
             </div>
         </div>
       </li>
@@ -45,8 +35,6 @@
 
 
 
-<!-- Here is the CSS for the code above.  I commented out some stuff, but you can undo
-them, but got to adjust the css for them so they line up correctly too.   -->
 <style>
 
 .center-block {
@@ -79,7 +67,7 @@ display: block;
 position: relative;
 -webkit-transition: all 0.4s ease-in;
 transition: all 0.4s ease-in;
-filter: grayscale(1) blur(3px);filter: grayscale(1) blur(3px);
+filter: grayscale(1) blur(2px);filter: grayscale(1) blur(2px);
 height: 300px;
 }
 
@@ -99,7 +87,7 @@ padding: 10px;
 background: rgba(0, 0, 0, 0.6);
 }
 
-.hoverEffect a.info {
+.hoverEffect p.info {
 display: inline-block;
 text-decoration: none;
 padding: 7px 14px;
@@ -108,11 +96,11 @@ margin: 50px 0 0 0;
 background-color: transparent;
 }
 
-.hoverEffect a.info:hover {
+.hoverEffect p.info:hover {
 box-shadow: 0 0 5px #fff;
 }
 
-.hoverEffect a.info, .hoverEffect h2 {
+.hoverEffect p.info, .hoverEffect h2 {
 -webkit-transform: scale(0.7);
 -ms-transform: scale(0.7);
 transform: scale(0.7);
@@ -122,7 +110,7 @@ opacity: 0;
 filter: alpha(opacity=0);
 }
 
-.hoverEffect:hover a.info, .hoverEffect:hover h2 {
+.hoverEffect:hover p.info, .hoverEffect:hover h2 {
 opacity: 1;
 filter: alpha(opacity=100);
 -webkit-transform: scale(1);
